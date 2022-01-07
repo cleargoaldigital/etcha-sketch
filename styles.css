@@ -1,7 +1,45 @@
-.gridRow, .cell{
-    border: 2px solid black;
-}
+.cell {
+    border: 1px solid gray;
+    min-width: 10px;
+    min-height: 20px;
+    display: inline-block;
+  }
 
-.cell{
-    border: 2px solid black;
-}
+/* :root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .grid-item {
+    padding: 1em;
+    border: 1px solid #ddd;
+    text-align: center;
+  } */
+
+  /* :root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #container {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  .grid-item {
+  padding: 1em;
+  border: 1px solid #ddd;
+  text-align: center;
+} */
+
+/*
+.row { display: flex; font-size: 9.5px; text-align: center; color: red }
+.cell { width: 10px; height: 10px; margin: 1px; border: 1px solid black;} */
