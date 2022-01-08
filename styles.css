@@ -1,45 +1,64 @@
-.cell {
-    border: 1px solid gray;
-    min-width: 10px;
-    min-height: 20px;
-    display: inline-block;
-  }
+/* Styling heder */
 
-/* :root {
-    --grid-cols: 1;
-    --grid-rows: 1;
-  }
-  
-  #container {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
-  }
-  
-  .grid-item {
-    padding: 1em;
-    border: 1px solid #ddd;
-    text-align: center;
-  } */
 
-  /* :root {
-    --grid-cols: 1;
-    --grid-rows: 1;
-  }
-  
-  #container {
-    display: grid;
-    grid-gap: 1em;
-    grid-template-rows: repeat(var(--grid-rows), 1fr);
-    grid-template-columns: repeat(var(--grid-cols), 1fr);
-  }
-  .grid-item {
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  color: rgb(241, 11, 11);
+  font-size: 4.5em;
+  margin: 20px auto;
+  text-shadow: 4px 8px 7px #fff;
+  border: 4px solid rgb(49, 5, 247);
+  background: #000;
+  padding: 30px auto;
+  border-radius: 10px;
+}
+
+.query{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+button{
+  padding: 20px;
+  background: olivedrab;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+.grid-item:hover{
+  background: blue;
+}
+
+#container {
+  display: grid;
+  grid-gap: 0.7em;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
   padding: 1em;
   border: 1px solid #ddd;
   text-align: center;
-} */
-
-/*
-.row { display: flex; font-size: 9.5px; text-align: center; color: red }
-.cell { width: 10px; height: 10px; margin: 1px; border: 1px solid black;} */
+  border-radius: 8px;
+  font-size: 1.2em;
+  background: rgb(70, 14, 14);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
