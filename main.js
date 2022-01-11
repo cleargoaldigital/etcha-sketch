@@ -16,16 +16,16 @@ function makeRows(rows, cols) {
 
 makeRows(16, 16);
 
-container.addEventListener('click', () => {
+div.addEventListener('click', () => {
   container.style.backgroundColor = 'orange';
 });
 
-question.addEventListener('click', () => {
-  // container.textContent = " ";
-  let userReply = Number(prompt('How many grids are there in a row?'))
+// question.addEventListener('click', () => {
+//   // container.textContent = " ";
+//   let userReply = Number(prompt('How many grids are there in a row?'))
 
   // let cell = document.createElement("div");
   // cell.textContent = (i);
   // container.appendChild(cell).className = "grid-item";
  // { for (i = 1; i <= userReply; i++)}
-});
+// });
